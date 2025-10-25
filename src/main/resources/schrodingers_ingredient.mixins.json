@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "moffy.schrodingers_ingredient.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "schrodingers_ingredient.refmap.json",
+  "mixins": [
+    "IngredientMixin",
+    "PackagerBlockEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
