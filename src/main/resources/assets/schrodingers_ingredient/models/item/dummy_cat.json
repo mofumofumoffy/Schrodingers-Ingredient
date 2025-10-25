@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "schrodingers_ingredient:item/dummy_cat"
+  }
+}
